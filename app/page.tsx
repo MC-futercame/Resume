@@ -52,7 +52,7 @@ const LocationButton = () => {
 const DownloadButton = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
+    link.href = "/Resume.pdf";
     link.download = "My_Resume.pdf";
     link.click();
   };
